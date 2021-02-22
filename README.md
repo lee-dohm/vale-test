@@ -2,6 +2,8 @@
 
 I'm running into what appears to be a bug with [vale][vale-linter]. This repo contains a minimal repro for the bug.
 
+[vale-linter]: https://github.com/errata-ai/vale
+
 ## Repro Steps
 
 1. [Clone the repo](https://docs.github.com/en/github/using-git/which-remote-url-should-i-use)
