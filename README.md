@@ -14,7 +14,7 @@ We use Liquid tags in our Markdown documentation to dereference things like prod
 1. Execute the command: `vale test.md`
 
 **Expected:** No errors \
-**Actual:** 1 error (see Erroneous Output below)
+**Actual:** 3 error (see Erroneous Output below)
 
 Notice that the first Liquid tag containing the text is flagged as an error, but the second identical Liquid tag on the same line is not.
 
@@ -24,6 +24,8 @@ Notice that the first Liquid tag containing the text is flagged as an error, but
  test.md
  1:169  error  Use 'GitHub' instead of         Vale.Terms
                'github'.
+ 3:65   error  Did you really mean 'api'?      Vale.Spelling
+ 3:69   error  Did you really mean 'url'?      Vale.Spelling
 ```
 
 ## Passing case
