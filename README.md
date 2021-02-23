@@ -25,3 +25,7 @@ Notice that the first Liquid tag containing the text is flagged as an error, but
  1:169  error  Use 'GitHub' instead of         Vale.Terms
                'github'.
 ```
+
+## Passing case
+
+In [the branch named `passing`](https://github.com/lee-dohm/vale-test/tree/passing) you can see that changing the `accept.txt` term from `GitHub` to `FooBar` and the Liquid tags from `{% data variables.contact.github_support %}` to `{% data variables.contact.foobar_support %}` does not reproduce the problem. It passes with zero errors detected.
