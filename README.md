@@ -16,6 +16,8 @@ We use Liquid tags in our Markdown documentation to dereference things like prod
 **Expected:** No errors \
 **Actual:** 1 error (see Erroneous Output below)
 
+Notice that the first Liquid tag containing the text is flagged as an error, but the second identical Liquid tag on the same line is not.
+
 ### Erroneous Output
 
 ```text
